@@ -10,30 +10,5 @@
 ## Requirements
 - Given the number of pins you knock down each time you roll, calculate the total score so far.
 
-### Some examples
-Assuming the rolls are in a ordered sequence:
-
-[5] → 5
-
-[5, 4] → 9
-
-[5, 5] → 10 (spare, we have to add the next roll when it happens)
-
-[5, 5, 3] → 16 (10+3 for the first frame plus the 3 of the second frame)
-
-[0, 10, 3, 5] → 21 (10+3 for the first frame plus the 3 and 5 of the second frame)
-
-[10] → 10 (strike, we have to add the two next rolls when they happen)
-
-[10, 5] → 20 (10+5 for the first frame plus 5 for the second frame, one more roll to be added)
-
-[10, 5, 5] → 30 (10+5+5 for the first frame plus 5+5 for the second frame)
-
-[10, 10, 10, 10, 10,
- 10, 10, 10, 10, 10,
- 10, 10] → 300 a perfect game: 10 x 30 (each frame scores 10+10+10 points)
-
-A random complete game: 
-[10, 7, 3, 9, 0, 10, 0, 8, 8, 2, 0, 6, 10, 10, 10, 8, 1] → 167 
 
 
